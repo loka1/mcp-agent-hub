@@ -1,0 +1,29 @@
+{
+  "name": "@mcp-hub/hub-server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "test": "tsx --test src/__tests__/**/*.test.ts",
+    "lint": "node -e \"console.log('lint soon')\"",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@mcp-hub/shared-types": "0.1.0",
+    "better-sqlite3": "^11.8.1",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/supertest": "^6.0.2",
+    "supertest": "^7.1.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}

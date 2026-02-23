@@ -1,0 +1,16 @@
+{
+  "name": "@mcp-hub/shared-types",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -w -p tsconfig.json",
+    "test": "node -e \"console.log('no tests yet')\"",
+    "lint": "node -e \"console.log('no lint yet')\"",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  }
+}
+
