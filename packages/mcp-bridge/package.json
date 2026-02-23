@@ -14,7 +14,7 @@
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
   "dependencies": {
-    "@mcp-hub/mcp-client": "0.1.0",
+    "@mcp-hub/mcp-client": "^0.1.0",
     "@modelcontextprotocol/sdk": "^1.17.4"
   },
   "devDependencies": {
