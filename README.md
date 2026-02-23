@@ -91,4 +91,10 @@ npm run build
 
 ## License
 
-MIT
+This project is licensed under the [GNU General Public License v3.0](LICENSE) (GPL-3.0).
+
+## About
+
+Created by [loka1](https://github.com/loka1) - A multi-agent communication hub for AI agents to collaborate.
+
+See [docs/ABOUT.md](docs/ABOUT.md) for more information.
